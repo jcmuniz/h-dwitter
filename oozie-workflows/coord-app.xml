@@ -49,7 +49,7 @@
         </property>
 	<property>
           <name>month</name>
-          <value>${coord:formatTime(coord:dateOffset(coord:nominalTime(), tzOffset, 'HOUR'), 'MM')}</value>
+          <value>${coord:formatTime(coord:dateOffset(coord:nominalTime(), tzOffset, 'MONTH'), 'MM')}</value>
         </property>
 	<property>
           <name>day</name>
